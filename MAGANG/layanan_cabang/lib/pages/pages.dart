@@ -1,0 +1,37 @@
+import 'dart:async';
+import 'dart:convert';
+import 'dart:math';
+
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:email_validator/email_validator.dart';
+import 'package:flushbar/flushbar.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_polyline_points/flutter_polyline_points.dart';
+import 'package:geocoding/geocoding.dart';
+import 'package:geolocator/geolocator.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:intl/intl.dart';
+import 'package:layanan_cabang/config_gmaps.dart';
+import 'package:layanan_cabang/models/models.dart';
+import 'package:layanan_cabang/provider/providers.dart';
+import 'package:layanan_cabang/shared/shared.dart';
+import 'package:layanan_cabang/widget/widget.dart';
+import 'package:provider/provider.dart';
+
+part 'splash_page.dart';
+part 'main_page.dart';
+part 'beranda_page.dart';
+part 'layanan_page.dart';
+part 'fyi_prb_page.dart';
+part 'fyi_pka_page.dart';
+part 'fyi_pbr_page.dart';
+part 'formulir_page.dart';
+part 'datetime_page.dart';
+part 'konfirmasi_page.dart';
+part 'jadwalku_page.dart';
+part 'sukses_page.dart';
+part 'maps_page.dart';
+part 'list_kantor_cabang.dart';
+part 'faq_page.dart';

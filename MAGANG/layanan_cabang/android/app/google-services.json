@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "497377529169",
+    "project_id": "layanancabang-314109",
+    "storage_bucket": "layanancabang-314109.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497377529169:android:948efa138719fd02fad770",
+        "android_client_info": {
+          "package_name": "com.kurniasari.layanan_cabang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497377529169-72pm1nvjpv4ahuu89741mc1iegg8h7k1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9obV5pch5WQdMn-c7w9SZQNPErKOHQZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497377529169-72pm1nvjpv4ahuu89741mc1iegg8h7k1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
