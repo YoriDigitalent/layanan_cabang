@@ -157,8 +157,8 @@ class BerandaPage extends StatelessWidget {
             //note: TOMBOL LIST KC
             GestureDetector(
               onTap: () {
-                Navigator.of(context)
-                    .push(MaterialPageRoute(builder: (context) => ListKC()));
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => ListKCPage()));
               },
               child: Stack(
                 children: <Widget>[
