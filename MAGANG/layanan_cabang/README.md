@@ -13,6 +13,9 @@ Beberapa fitur yang bisa ditingkatkan:
 ## Link Dokumentasi Video dan Tampilan Aplikasi
 https://drive.google.com/drive/folders/1JRHQ9pMePGyyQpFblMMF2wWTpNMWw9d3?usp=sharing
 
+## Link Download Aplikasi
+https://drive.google.com/drive/folders/1WMkrZJ0h3EoMZPmnZwScDXWvZgHHCKkP?usp=sharing
+Install file berformat .apk pada masing-masing android Anda.
 
 ## Getting Started
 
