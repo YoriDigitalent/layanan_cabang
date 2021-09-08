@@ -36,3 +36,4 @@ part 'sukses_page.dart';
 part 'maps_page.dart';
 part 'list_kantor_cabang.dart';
 part 'faq_page.dart';
+part 'lihat_jadwal_page.dart';

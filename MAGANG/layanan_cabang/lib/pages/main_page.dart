@@ -83,7 +83,7 @@ class _MainPageState extends State<MainPage> {
                             )),
                         BottomNavigationBarItem(
                             // ignore: deprecated_member_use
-                            title: Text("Jadwalku",
+                            title: Text("Jadwal",
                                 style: GoogleFonts.raleway(
                                     fontSize: 13, fontWeight: FontWeight.w600)),
                             icon: Container(

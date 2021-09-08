@@ -1,7 +1,7 @@
 part of 'pages.dart';
 
 class JadwalkuPage extends StatelessWidget {
-  final Stream<QuerySnapshot> _usersStream =
+  final Stream<QuerySnapshot> _formsStream =
       FirebaseFirestore.instance.collection('forms').snapshots();
 
   @override
@@ -9,7 +9,7 @@ class JadwalkuPage extends StatelessWidget {
     return Scaffold(
       body: Container(
         child: StreamBuilder<QuerySnapshot>(
-          stream: _usersStream,
+          stream: _formsStream,
           builder:
               (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
             if (snapshot.hasError) {
@@ -34,6 +34,17 @@ class JadwalkuPage extends StatelessWidget {
                               style: blackTextFont.copyWith(
                                   fontSize: 16, fontWeight: FontWeight.bold)),
                           SizedBox(height: 10),
+                          Row(children: <Widget>[
+                            Text("Tanggal:"),
+                            SizedBox(width: 3),
+                            Text(data['selectedDate']),
+                            SizedBox(width: 15),
+                            Text("Pukul:"),
+                            SizedBox(width: 3),
+                            Text(data['selectedTimes'].toString()),
+                            Text(":00"),
+                          ]),
+                          SizedBox(height: 5),
                           Text(data['place']),
                           SizedBox(height: 10),
                           Text(data['selectedLayanan']),
@@ -48,5 +59,3 @@ class JadwalkuPage extends StatelessWidget {
     );
   }
 }
-
-//https://medium.com/firebase-tips-tricks/how-to-use-cloud-firestore-in-flutter-9ea80593ca40
