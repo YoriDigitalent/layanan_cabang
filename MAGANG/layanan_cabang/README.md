@@ -10,6 +10,10 @@ Beberapa fitur yang bisa ditingkatkan:
 - Menambahkan data estimasi waktu yang real karena yang digunakan saat ini masih dummy.
 - Memperbaiki tampilan aplikasi.
 
+## Link Dokumentasi Video dan Tampilan Aplikasi
+https://drive.google.com/drive/folders/1JRHQ9pMePGyyQpFblMMF2wWTpNMWw9d3?usp=sharing
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
